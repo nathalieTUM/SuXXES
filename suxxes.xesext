@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xesextension name="SuXXES" prefix="suxxes" uri="">
-
+<xesextension name="SuXXES" prefix="sus" uri="https://nathalietum.github.io/SuXXES/suxxes.xesext">
+	<!--
+		The cost sustainability extention SuXXES defines [...]
+	-->
+	<trace>
+		<string key="initatives">
+			<alias mapping="EN" name="Initatives"/>
+		</string>
+	</trace>
+	<event>
+		<string key="materialstate">
+			<alias mapping="EN" name="MaterialState"/>
+		</string>
+	</event>
+	<event>
+		<string key="materialtype">
+			<alias mapping="EN" name="MaterialType"/>
+		</string>
+		<float key="co2emissions">
+			<alias mapping="EN" name="CO2Emissions"/>
+		</float>
+		<boolean key="materialisrenewable">
+			<alias mapping="EN" name="MaterialIsRenewable"/>
+		</boolean>
+	</event>
+	<meta>
+	</meta>
 </xesextension>
