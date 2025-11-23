@@ -1,27 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xesextension name="SuXXES" prefix="sus" uri="https://nathalietum.github.io/SuXXES/suxxes.xesext">
+<xesextension name="SuXXES" prefix="susty" uri="https://nathalietum.github.io/SuXXES/suxxes.xesext">
 	<!--
-		The cost sustainability extention SuXXES defines [...]
+		The sustainability extention SuXXES defines [...]
 	-->
+	<log>
+	</log>
+	
 	<trace>
-		<string key="initatives">
-			<alias mapping="EN" name="Initatives"/>
-		</string>
 	</trace>
+	
 	<event>
-		<string key="materialstate">
-			<alias mapping="EN" name="MaterialState"/>
+		<list key="material">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="material" />
+		</list>
+		<string key="id">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="id" />
 		</string>
-	</event>
-	<event>
-		<string key="materialtype">
-			<alias mapping="EN" name="MaterialType"/>
+		<string key="type">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="type" />
 		</string>
-		<float key="co2emissions">
-			<alias mapping="EN" name="CO2Emissions"/>
+		<float key="quantity">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="quantity" />
 		</float>
-		<boolean key="materialisrenewable">
-			<alias mapping="EN" name="MaterialIsRenewable"/>
+		<string key="state">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="state" />
+		</string>
+		<float key="hazardousLevel">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="hazardousLevel" />
+		</float>
+		<boolean key="isRenewable">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="isRenewable" />
+		</boolean>
+		<boolean key="sourcedInternally">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="sourcedInternally" />
+		</boolean>
+		<boolean key="conflictResource">
+			<!--
+				Defintion
+			-->	
+			<alias mapping="EN" name="conflictResource" />
 		</boolean>
 	</event>
 	<meta>
