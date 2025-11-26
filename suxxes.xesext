@@ -48,7 +48,7 @@
 			-->	
 			<alias mapping="EN" name="List of Emission Objects" />
 		</list>
-		<list key="employee ">
+		<list key="employee">
 			<!--
 				List containing details of the employee related to the business process step.
 			-->	
@@ -116,7 +116,7 @@
 			-->	
 			<alias mapping="EN" name="List of Emission Objects" />
 		</list>
-		<list key="employee ">
+		<list key="employee">
 			<!--
 				List containing details of the employee related to the business process step.
 			-->	
