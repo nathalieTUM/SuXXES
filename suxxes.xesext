@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xesextension name="SuXXES" prefix="suxxes" uri="https://nathalietum.github.io/SuXXES/suxxes.xesext">
 	<!--
-		The sustainability extention SuXXES defines the integration of sustainability related-date into an event log, considering all three sustainability dimensions: economic, environmental, and social.
+		The sustainability extension SuXXES defines a uniform integration of sustainability related-data into an event log, considering all three sustainability dimensions: economic, environmental, and social.
 	-->
 	<log>
 	</log>
